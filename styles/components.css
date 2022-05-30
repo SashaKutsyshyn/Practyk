@@ -1,0 +1,459 @@
+:root{
+    --color1: #FFFFFF;
+    --color2: #D1D9DF;
+    --color3: #D4E0EA;
+    --color4: #576A7A;
+    --color5: #1D2A33;
+    --color6: #0E211F;
+    --color7: #00310f;
+}
+
+body{
+    background-color: var(--color1);
+    padding-left: 2%; padding-right: -2%;
+}
+
+@font-face {
+    font-family: "Nimbus_Mono";
+    src: local("Nimbus_Mono"),
+     url("../fonts/Nimbus_Mono.otf") format("truetype");
+    font-weight:normal;
+    }
+
+@font-face {
+        font-family: "Ben-Gotic";
+        src: local("Ben-Gotic"),
+         url("../fonts/BenguiatGothicCTT.ttf") format("truetype");
+        font-weight:normal;
+}
+
+@font-face {
+    font-family: "BPG Arial";
+    src: local("BPG Arial"),
+     url("../fonts/geo_1.ttf") format("truetype");
+    
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: local("PlayfairDisplay"),
+     url("../fonts/PlayfairDisplay.ttf") format("truetype");
+    font-weight:bold;
+}
+
+
+@font-face {
+    font-family: "Brush-Script MT";
+    src: local("Brush-Script MT"),
+     url("../fonts/brushscriptmtrusbyme_italic.otf") format("truetype");
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: "Veles";
+    src: local("Veles"),
+     url("../fonts/Veles-Bold.0.9.2.otf") format("truetype");
+    
+}
+
+.page-content{
+    margin-top: 20px;
+    
+}
+
+.color-1{
+    color: var(--color1);
+    
+}
+
+.color-6{
+    color: var(--color6);
+}
+
+.bg-6{
+    background-color: var(--color6);
+    
+}
+
+.font-ttl{
+    color: var(--color3);
+    font-family: Veles;
+    font-size: 30px;
+    
+    text-transform: none;
+    
+}
+
+.text-center {
+    text-align: center !important;
+    width: 100%;
+    
+    
+  }
+
+.padding-0{
+    padding: 15px 10px 15px 10px !important;
+}
+
+.margin-0{
+    margin: 0px 0px 0px 0px !important;
+}
+
+.shadow-1
+{
+    -webkit-box-shadow: 2px 6px 29px -3px #0E211F; 
+box-shadow: 2px 6px 29px -3px #0E211F;
+}
+
+.margin-top{
+    margin-top: 100px;
+}
+
+.main-page
+{
+    background-image: url(../public/imj/mainpage.png);
+    min-width: 100vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+.main-page-first-tll{
+    color: var(--color3);
+    font-size: 50px;
+
+    font-family: PlayfairDisplay;
+}
+
+.main-page-second-tll{
+    color: var(--color3);
+    font-size: 100px;
+    font-family: Brush-Script MT;
+}
+.bg-ordercar
+{
+    background-image: url(../public/imj/ordercar2.jpg);
+    background-size: cover;
+}
+.bg-bag
+{
+    background-image: url(../public/imj/bag.png);
+    background-size: cover;
+}
+
+.equipment-plate
+{
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    padding-top: 550px;
+}
+
+.equipment-butt
+{
+    font-family: Brush-Script MT;
+    text-transform: none;
+    filter: blur(0px);
+    color: var(--color3);
+    text-decoration: none;
+    font-size: 40px;
+    border-radius:5px;
+	border:1px solid var(--color3);
+    padding:15px 30px;
+    
+}
+
+.equipment-butt:hover{
+    border:1px solid var(--color6);
+    background-color: var(--color3);
+    color: var(--color6);
+}
+
+
+
+
+
+.navbar-styled
+{
+    /*
+    position: sticky;
+    top: 0;
+    */
+   
+    color: var(--color4); 
+    font-size: 30px;
+    font-family: BPG Arial;
+   
+   /* border: 1px solid blue;*/
+}
+
+
+
+.navbar-item{
+    text-align: center !important;
+    padding-top: 10%;
+    font-size: 13px;
+   
+}
+
+.navbar-item:hover{
+    text-decoration:underline;
+}
+
+.logo{
+    display: inline;
+}
+
+.logo-text{
+    display: inline;
+    font-size: 50px;
+    font-family: PlayfairDisplay;
+    font-weight: bolder;
+}
+
+.logo-second-text{
+    display: inline;
+    font-size: 10px;
+    
+    white-space: pre-line;
+    font-family: BPG Arial;
+
+}
+.navbar-item:hover{
+    color: var(--color5);
+}
+
+.navbar-img{
+    width: 20%; height: auto;
+}
+
+.place-page-ttl{
+    font-family: Nimbus_Mono;
+}
+
+.place-page-info
+{
+    padding: 30px 30px 30px 30px;
+}
+
+.place-page-img{
+    height: 300px; width: 400px;
+    display: block;
+    margin-left: auto; margin-right: auto;
+    margin-top: 10px; margin-bottom: 20px;
+}
+
+.place-styled
+{
+    text-align: justify;
+    color: var(--color4); 
+}
+
+.gallery-page-item
+{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.gallery-page-photo{
+    height: 300px; 
+    background-color: var(--color6);
+    background-blend-mode:luminosity;
+    background-size: cover;
+}
+
+.gallery-page-photo:hover{
+      background-blend-mode: normal;
+}
+
+.gallery-page-item-ttl{
+    color: var(--color6);
+    font-family: Nimbus_Mono;
+    font-size: 20px;
+    height: 50px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+
+.random-page-content{
+    background-image: url(../public/imj/random.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1400px;;
+    padding-top: 10%;
+    font-family: Nimbus_Mono;
+    font-size: 15px;
+}
+
+.random-page-plate{
+    padding: 5% 5% 5% 5%;
+    height: 1400px;
+}
+
+.random-page-btn{
+    margin-top: 20px;
+}
+
+.auto-input{
+    margin-top: 30px;
+    margin-bottom: -10px;
+    height: 40px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: var(--color1);
+    color: var(--color6);
+}
+
+.auto-input:focus{
+    background-color: var(--color6);
+    color: var(--color1);
+    border: 0;
+}
+
+.auto-page-plate{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 90vh;
+
+}
+
+.autorisation{
+    height:90vh;
+    background-image: url(../public/imj/lovetunel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.auto-btn{
+    margin-top: 30px;
+    height: 45px;
+    width: 52%;
+    border-radius: 5px;
+    background-color: var(--color1);
+    font-family: Nimbus_Mono;
+    font-size: 20px;
+        
+}
+
+.auto-log-sign-link{
+    font-size: 13px;
+    color: #D1D9DF;
+    font-family: Nimbus_Mono;
+}
+.auto-log-sign-link:hover{
+    color: var(--color1);
+}
+
+.personal-info{
+    background-color: var(--color6);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 90vh;
+}
+
+.profile-photo{
+    height: 200px; width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.personal-lists{
+    padding: 10% 5% 10% 5%;
+}
+
+.banner
+{
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 90vh;
+}
+
+selection
+{
+    position: fixed;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 90vh;
+    background-image: url(https://images.milledcdn.com/2020-10-02/jAvvMxF6qqi0ypDL/YjouLNXfaKF8.gif);
+    background-attachment: fixed;
+}
+
+.lU-container{
+    position: relative;
+    margin-top: 200vh;
+    background-color: var(--color6);
+    padding: 100px;
+}
+
+
+
+@media (min-width: 768px){
+
+    .navbar-styled{
+        font-size: 10px;
+    }
+
+    .logo{
+        padding-right: 0px; padding-left: 0px;
+        
+        top: 50%;
+    }
+    .logo-text{
+        text-align: right;
+        font-size: 30px;
+    }
+    .navbar-img
+    {
+    width: 30%; height: auto;
+    }
+    .random-page-content{
+        background-image: url(../public/imj/random.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;;
+    }
+    .random-page-plate{
+        height: 700px;
+    }
+
+
+    .slider{
+        margin-top: 0px;
+
+        
+    }
+
+
+    .text-left{
+        margin-left: 5%;
+        /*margin-right: 10%;*/
+        
+    }
+
+
+    .slider-line {
+        position: relative;
+        padding-top: 30px;
+    }
+    .text-line {
+        position: absolute;
+        left: 40px;
+        top: 29px;
+        background: var(--color6);
+        padding: 0 10px;
+    }
+    
+}
+
+
